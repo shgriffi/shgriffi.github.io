@@ -8420,6 +8420,9 @@ h1, h2, h3, h4, h5,
             font-weight: 800;
             color: #0075f6; }
           @media (max-width: 991.98px) {
+            .owl-carousel.home-slider .slider-item .slider-text h1 span {
+              color: #fff; } }
+          @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
               font-size: 50px; } }
@@ -8431,6 +8434,9 @@ h1, h2, h3, h4, h5,
           font-weight: 400; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h2 {
+              color: #fff; } }
+          @media (max-width: 991.98px) {
+            .owl-carousel.home-slider .slider-item .slider-text .subheading {
               color: #fff; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           color: rgba(0, 0, 0, 0.8);
@@ -8445,6 +8451,10 @@ h1, h2, h3, h4, h5,
           text-transform: uppercase;
           font-size: 12px;
           letter-spacing: 3px; }
+        @media (max-width: 991.98px) {
+          .owl-carousel.home-slider .slider-item .slider-text .btn-custom {
+            color: #fff; 
+            bordeR: 1px solid #fff;} }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
       bottom: 60px !important;
